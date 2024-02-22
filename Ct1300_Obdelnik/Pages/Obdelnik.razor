@@ -1,0 +1,31 @@
+﻿@page "/obdelnik"
+
+<PageTitle>Obdelník</PageTitle>
+
+<h1>Obdelnik</h1>
+<label>
+    Zadej stranu A:
+    <input type="number" @bind-value = "obdelnik.StranaA"/>
+</label>
+<label>
+    Zadej stranu B:
+    <input type="number" @bind-value="obdelnik.StranaB" />
+</label>
+<br />
+<button @onclick="obdelnik.Spocti">Výpočet</button>
+<br />
+<label>
+    Obvod:
+    <input @bind-value="obdelnik.Obvod" readonly/>
+</label>
+<label>
+    Obsah:
+    <input @bind-value="obdelnik.Obsah" readonly />
+</label>
+<label>
+    Uhlopříčka:
+    <input @bind-value="obdelnik.Uhlopricka" readonly />
+</label>
+@code {
+    private Model.Obdelnik obdelnik = new Model.Obdelnik();
+}

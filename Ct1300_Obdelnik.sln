@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ct1300_Obdelnik", "Ct1300_Obdelnik\Ct1300_Obdelnik.csproj", "{DE54AAA8-E8B7-4A2F-AEBB-A7C78E661E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE54AAA8-E8B7-4A2F-AEBB-A7C78E661E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE54AAA8-E8B7-4A2F-AEBB-A7C78E661E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE54AAA8-E8B7-4A2F-AEBB-A7C78E661E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE54AAA8-E8B7-4A2F-AEBB-A7C78E661E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D20F419-D48D-4B77-A24D-13033B3AA840}
+	EndGlobalSection
+EndGlobal
